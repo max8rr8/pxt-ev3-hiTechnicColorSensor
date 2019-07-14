@@ -22,7 +22,6 @@ namespace sensors {
     }
   
     _IICId(){
-        control.dmesg(readIICID(2, 0))
         return 'HiTechncColorPD'
     }
   }
